@@ -25,7 +25,7 @@ If you are looking to get started with Vagrant then just follow the steps:
 
 Create a directory.
 ```
->mkdir test
+> mkdir test
 ```
 
 ### Step 2:
@@ -33,13 +33,13 @@ Create a directory.
 Initialize the directory with the vagrant file
 
 ```
->vagrant init
+> vagrant init
 ```
 
 or if you want to prespecify the OS
 
 ```
->vagrant init ubuntu/xenial64
+> vagrant init ubuntu/xenial64
 ```
 
 ### Step 3:
@@ -54,11 +54,11 @@ Just start the VM by executing:
 > vagrant up
 ```
 
-## Running the tests
+## Running the projects
 
 Just clone the repository, browse into the required directory and execute:
 ```
->vagrant up
+> vagrant up
 ```
 
 ## Authors
