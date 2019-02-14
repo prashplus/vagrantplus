@@ -11,7 +11,9 @@ sudo apt-get install -y git \
     build-essential \
     python-pip \
     iptables \
-    software-properties-common
+    software-properties-common \
+    net-tools \
+    iputils-ping
 pip install pytest
 pip install docker
 pip install python-iptable
