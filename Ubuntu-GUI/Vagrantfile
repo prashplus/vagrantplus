@@ -67,6 +67,8 @@ Vagrant.configure("2") do |config|
     sudo apt-get update
     sudo apt-get install -y xfce4 virtualbox-guest-dkms virtualbox-guest-utils virtualbox-guest-x11
     sudo sed -i 's/allowed_users=.*$/allowed_users=anybody/' /etc/X11/Xwrapper.config
+    sudo apt-get install -y lightdm lightdm-gtk-greeter
+    sudo apt-get install -y xfce4-whiskermenu-plugin
   SHELL
   config.vm.synced_folder "shared/", "/shared"
 end

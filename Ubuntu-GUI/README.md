@@ -15,11 +15,6 @@ To start the VM:
 
 Login with username: *vagrant*, password: *vagrant* via the login prompt on the virtualbox GUI.
 
-Start xfce
-```
-> startx
-```
-
 
 ## Authors
 
