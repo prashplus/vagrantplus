@@ -6,6 +6,8 @@ apt-get update
 apt-get install -y ambari-server
 apt-get install -y ntp
 update-rc.d ntp defaults
-
+systemctl stop systemd-resolved
+# nano /etc/systemd/resolved.conf
+# ln -sf /run/systemd/resolve/resolv.conf /etc/resolv.conf
 #ambari-server setup
 #service ambari-server start
