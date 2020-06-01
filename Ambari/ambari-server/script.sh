@@ -10,6 +10,7 @@ systemctl stop systemd-resolved
 sh -c "echo 'DNS=1.1.1.1' >> /etc/systemd/resolved.conf"
 sh -c "echo 'DNSStubListener=no' >> /etc/systemd/resolved.conf"
 ln -sf /run/systemd/resolve/resolv.conf /etc/resolv.conf
+apt install -y openjdk-8-jre-headless
 ambari-server setup -s
 ambari-server start
 ifconfig
